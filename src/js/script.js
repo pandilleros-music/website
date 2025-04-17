@@ -1,5 +1,5 @@
 const album = [{
-    title: 'Pandi S.P.A',
+    title: 'Pandi S.P.A.',
     cover: 'image.jpg',
     audio: 'track1.mp3'
 },
