@@ -65,14 +65,15 @@ let currentAudio = null;
 function login() {
     const user = document.getElementById("username").value;
     const pass = document.getElementById("password").value;
-    if (user === 'pandilleros' && pass === '1234') {
+
+    // oh no matthew ha lasciato le credenziali in chiaro
+    if (user === 'pandilleros' && pass === 'nati2volte') {
         document.getElementById("login").style.display = "none";
         document.getElementById("playlist").style.display = "block";
         loadPlaylist();
         typeWriterEffect("ecco a te l'anteprima dell'album");
     } else {
         document.getElementById("credentials").innerHTML= "credenziali non valide."
-        // alert("Credenziali non valide.");
     }
 }
 
